@@ -1,0 +1,13 @@
+echo "
+# Archivos y carpetas comunes a ignorar
+node_modules/
+dist/
+.DS_Store
+*.log
+*.env
+.vscode/
+.idea/
+coverage/
+*.tmp
+*.bak
+" > .gitignore

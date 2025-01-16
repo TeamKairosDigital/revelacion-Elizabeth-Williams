@@ -1,9 +1,19 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const linkElement = document.querySelector('a[href="https://maps.app.goo.gl/G4KLcWJ8sichXZwr7"]');
+    if (!linkElement) return;
+
+    // Cambiar enlace según el dispositivo
+    if (navigator.userAgent.match(/(iPhone|iPad|iPod)/i)) {
+        linkElement.href = "https://beta.maps.apple.com/?auid=10321296318776293652&lsp=9902"; // Esquema de Mapas de iOS
+    }
+});
+
 simplyCountdown('#cuenta', {
     year: 2025, // required
-    month: 1, // required
-    day: 25, // required
-    hours: 19, // Default is 0 [0-23] integer
-    minutes: 0, // Default is 0 [0-59] integer
+    month: 3, // required
+    day: 2, // required
+    hours: 14, // Default is 0 [0-23] integer
+    minutes: 30, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
         days: { singular: 'Día', plural: 'Días' },
@@ -24,7 +34,6 @@ simplyCountdown('#cuenta', {
     zeroPad: false,
     countUp: false
 });
-
 
 // document.addEventListener('DOMContentLoaded', function() {
 //     var music = document.getElementById('background-music');

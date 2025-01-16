@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erika & Antonio</title>
+    <!-- <link rel="shortcut icon" href="images/nombres.png" type="image/x-icon"> -->
+    <!-- PrimeFlex CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/primeflex@3.1.0/primeflex.min.css" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Modal con PrimeFlex -->
+    <!-- <div id="welcomeModal" class="modal">
+        <div class="modal-content p-3">
+            <h2>Felicidades, has sido invitado a nuestra boda</h2>
+            <button id="startButton" style="background-color: var(--colorPrimario); color: #ffffff; border-radius: 20px;" class="px-3 py-2 mt-5 font-bold">Ingresar</button>
+        </div>
+    </div> -->
+    <!-- fade hidden -->
+    <div id="contenido" class="xl:w-8 xl:mx-auto ">
+        <!-- Botón flotante de reproducir/pausar -->
+        <!-- <div id="playButton"><i class="fa-solid fa-circle-pause"></i></div> -->
+
+        <!-- INTRO -->
+        <div class="relative justify-content-center text-center overflow-hidden">
+
+            <!-- Texto superpuesto -->
+            <div class="absolute z-2 w-full" style="top: 4rem;">
+                <div class="flex flex-column justify-content-center align-items-center">
+                    <div class="flex justify-content-center">
+                        <h2 class="text-8xl font-bold line-height-1" data-aos="zoom-out" data-aos-duration="800">
+                            ¿Niño
+                        </h2>
+                        <h2 class="text-7xl font-bold line-height-1 align-self-end ml-3" style="color: var(--colorSecundario)" data-aos="zoom-out" data-aos-duration="800">
+                            o
+                        </h2>
+                    </div>
+                    <h2 class="text-8xl font-bold line-height-1 -mt-3" style="color: var(--colorSecundario)" data-aos="zoom-out" data-aos-duration="800">
+                        Niña?
+                    </h2>
+                </div>                
+                <div class="flex col-12 my-6">
+                    <div class="col-6" data-aos="fade-right"  data-aos-duration="800" style="text-align: right;">
+                        <img src="images/ropa_nino.png" class="w-10rem lg:w-10rem" alt="puntos" >
+                    </div>
+                    <div class="col-6" data-aos="fade-right"  data-aos-duration="800" style="text-align: left;">
+                        <img src="images/ropa_nina.png" class="w-12rem lg:w-10rem" alt="puntos">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="col-4" data-aos="fade-right"  data-aos-duration="800" >
+                        <img src="images/corazon.png" class="absolute w-3rem lg:w-10rem " style="transform: translateX(60px);"  alt="puntos" >
+                    </div>
+                </div>
+                <div class="w-7 mt-6 mx-auto" data-aos="fade-left" data-aos-duration="800">
+                    <p class="text-xl lg:text-lg font-normal">
+                        ¡Estás invitado/a a la
+                        revelación de nuestro bebé!
+                    </p>
+                </div>
+                <div class="flex flex-column justify-content-center align-items-center">
+                    <div class="flex justify-content-center">
+                        <h2 class="text-7xl font-bold line-height-1" data-aos="zoom-out" data-aos-duration="800">
+                            Elizabeth
+                        </h2>
+                        <h2 class="text-6xl font-bold line-height-1 align-self-end ml-3" style="color: var(--colorSecundario)" data-aos="zoom-out" data-aos-duration="800">
+                            &
+                        </h2>
+                    </div>
+                    <h2 class="text-7xl font-bold line-height-1 -mt-3" style="color: var(--colorSecundario)" data-aos="zoom-out" data-aos-duration="800">
+                        Williams
+                    </h2>
+                </div>
+            </div>
+
+            <!-- imagenes de fondo -->
+            <div class="w-full grid">
+                <div class="col-12 grid h-18rem lg:h-15rem " style="text-align: left;">
+                    <div class="col-4" data-aos="fade-right"  data-aos-duration="800">
+                        <img src="images/hoja1.png" class="absolute w-10rem lg:w-10rem -ml-5" alt="puntos">
+                    </div>
+                    <div class="col-8"></div>
+                </div>
+                <div class="col-12 h-24rem grid lg:h-20rem">
+                    <div class="col-4" data-aos="fade-left" data-aos-duration="800" style="text-align: left;">
+                        <img src="images/mono.png" class="w-4rem lg:w-10rem mt-7 ml-4" alt="puntos2">
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4" style="text-align: right;" data-aos="fade-left" data-aos-duration="800">
+                        <img src="images/hoja2.png" class="w-14rem lg:w-25rem -mr-8 lg:ml-0 -mt-3" alt="rayon1">
+                    </div>
+                </div>
+                <div class="col-12 h-14rem grid lg:h-20rem">
+                    <div class="col-4 -ml-4" data-aos="fade-left" data-aos-duration="800" style="text-align: left;">
+                        <img src="images/hoja2.png" class="absolute w-15rem lg:w-10rem -mt-8 -ml-8" alt="puntos2" style="rotate:70deg;">
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4 -mr-8" style="text-align: right;" data-aos="fade-left" data-aos-duration="800">
+                        <img src="images/hoja1.png" class="w-14rem lg:w-25rem -mt-8 -mr-8 lg:ml-0" alt="rayon1" style="rotate: 70deg;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="absolute z-2 col-12 h-18rem -mt-8 grid lg:h-30rem mt-7 overflow-hidden">
+
+        </div>
+        
+        <!-- FECHA -->
+        <div class="relative justify-content-center text-center overflow-hidden">
+
+            <!-- imagenes de fondo -->
+            <div class="grid w-full mt-8 absolute z-2">
+                <div class="col-12 grid h-18rem sm:h-25rem md:h-30rem lg:h-20rem">
+                    <div class="col-4" data-aos="fade-right"  data-aos-duration="800">
+                        <img src="images/corazon.png" class="w-3rem lg:w-10rem" alt="corazon">
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4" style="text-align: right;" data-aos="fade-left" data-aos-duration="800">
+                        <img src="images/mono.png" class="w-5rem lg:w-25rem" alt="moño">
+                    </div>
+                </div>
+                <div class="col-12 h-20rem lg:10rem grid lg:h-30rem">
+                    <div class="col-4" data-aos="fade-right" data-aos-duration="800">
+                        <img src="images/hoja1.png" class="w-10rem lg:w-10rem -mt-8 -ml-4" alt="hoja2">
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4" style="text-align: right;" data-aos="fade-left" data-aos-duration="800">
+                        <img src="images/hoja2.png" class="w-12rem lg:w-10rem" alt="hoja1">
+                    </div>
+                </div>
+            </div>
+      
+            <!-- Texto superpuesto -->
+            <div class="h-auto">
+              <div class="py-6" style="background-color: var(--colorClaro);">
+                <div data-aos="zoom-in-down" data-aos-duration="800">
+                    <img src="images/calendario.png" alt="calendario" class="w-2 lg:w-1 mb-4">
+                </div>
+                <div class="w-7 mx-auto" data-aos="fade-left" data-aos-duration="800">
+                    <p class="text-xl lg:text-lg font-normal">
+                        Domingo 02 de Marzo <br> 02:30 pm
+                    </p>
+                </div>
+                <div class="my-4" data-aos="zoom-in-up" data-aos-duration="800">
+                    <a href="https://wa.me/+529611983460?text=Hola, Quiero confirmar mi asistencia" style="background-color: var(--colorPrimario); color: var(--colorClaro); text-decoration: none; border-radius: 20px;" class="px-3 py-2 text-xl">Confirmar asistencia</a>
+                </div>
+              </div>
+      
+              <div class="py-3" style="background-color: var(--colorReserva);">
+                <div data-aos="zoom-in-down" data-aos-duration="800">
+                    <img src="images/localizacion.png" alt="calendario" class="w-2 lg:w-1 mb-4">
+                </div>
+                <div class="w-7 mx-auto" data-aos="fade-left" data-aos-duration="800">
+                    <p class="text-xl lg:text-lg font-normal">
+                        Salón “Kam-Fai” <br>
+                        18 Sur Oriente 336, Barrio <br>
+                        San Francisco
+                    </p>
+                </div>
+                <div class="my-4" data-aos="zoom-in-up" data-aos-duration="800">
+                    <a href="https://maps.app.goo.gl/G4KLcWJ8sichXZwr7" style="background-color: var(--colorPrimario); color: var(--colorClaro); text-decoration: none; border-radius: 20px;" class="px-3 py-2 text-xl">Ver mapa</a>
+                </div>
+              </div>
+            </div>
+      
+        </div>
+
+        <!-- FOOTER -->
+        <div class="relative justify-content-center text-center overflow-hidden">
+
+            <!-- Texto superpuesto -->
+            <div class="absolute z-2 w-full">
+                <div class="py-6">
+                    <div data-aos="zoom-in-down" data-aos-duration="800">
+                        <img src="images/codigo-de-vestimenta.png" alt="calendario" class="w-2 lg:w-1 mb-4">
+                    </div>
+                    <div class="w-7 mx-auto" data-aos="fade-left" data-aos-duration="800">
+                        <p class="text-xl lg:text-lg font-normal">
+                            Código de vestimenta:
+                            <br> Blanco.
+                        </p>
+                    </div>
+                    <div class="w-7 py-5 mx-auto" data-aos="fade-left" data-aos-duration="800">
+                        <p class="text-xl lg:text-lg font-normal">
+                            ¿A qué equipo le vas?
+                        </p>
+                    </div>
+                    <div class="flex py-4">
+                        <div class="col-2"></div>
+                        <div class="col-3 mx-auto" data-aos="fade-left" data-aos-duration="800">
+                            <div data-aos="zoom-in-down" data-aos-duration="800">
+                                <img src="images/genero-masculino.png" alt="genero-masculino" class="w-4 lg:w-1 mb-4">
+                            </div>
+                            <p class="text-xl lg:text-lg font-normal">
+                                Si crees que <br>
+                                es niño: <br>
+                                ¡Trae toallitas <br>
+                                húmedas!
+                            </p>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-3 mx-auto" data-aos="fade-left" data-aos-duration="800">
+                            <div data-aos="zoom-in-down" data-aos-duration="800">
+                                <img src="images/simbolo-femenino.png" alt="simbolo-femenino" class="w-3 lg:w-1 mb-4">
+                            </div>
+                            <p class="text-xl lg:text-lg font-normal">
+                                Si crees que <br>
+                                es niña: <br>
+                                ¡Trae pañales!
+                            </p>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="flex flex-column justify-content-center align-items-center">
+                        <h2 class="text-5xl font-bold line-height-1" data-aos="zoom-out" data-aos-duration="600">
+                            ¡Te esperamos en
+                        </h2>
+                        <h2 class="text-5xl font-bold line-height-1 -mt-3" style="color: var(--colorSecundario)" data-aos="zoom-out" data-aos-duration="800">
+                            este día tan especial!
+                        </h2>
+                    </div> 
+                    <div class="my-4" data-aos="zoom-in-up" data-aos-duration="800">
+                        <a href="https://wa.me/+529611983460?text=Hola, Quiero confirmar mi asistencia" style="background-color: var(--colorPrimario); color: var(--colorClaro); text-decoration: none; border-radius: 20px;" class="px-3 py-2 text-xl">Confirmar asistencia</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="w-full grid flex-grow">
+                <div class="col-12 h-20rem lg:10rem grid lg:h-30rem">
+                    <div class="col-4" data-aos="fade-right" data-aos-duration="800">
+                        <img src="images/hoja2.png" class="w-10rem lg:w-10rem -mt-8 -ml-4" alt="hoja2">
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4" style="text-align: right;" data-aos="fade-left" data-aos-duration="800">
+                        <img src="images/hoja1.png" class="w-12rem lg:w-10rem" alt="hoja1">
+                    </div>
+                </div>
+                <div class="col-12 h-18rem lg:10rem grid lg:h-30rem">
+                    <div class="col-4" data-aos="fade-right" data-aos-duration="800">
+                        <img src="images/corazon.png" class="w-4rem lg:w-10rem -mt-8 -ml-4" alt="corazon">
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4" style="text-align: right;" data-aos="fade-left" data-aos-duration="800">
+                        <img src="images/mono.png" class="w-4rem lg:w-10rem" alt="moño">
+                    </div>
+                </div>
+                <div class="col-12 h-10rem lg:10rem grid lg:h-30rem">
+                    <div class="col-4" style="text-align: left;" data-aos="fade-right" data-aos-duration="800">
+                        <img src="images/ropa_nino.png" class="w-14rem lg:w-10rem -ml-4" alt="ropa_nino">
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4" style="text-align: right;" data-aos="fade-left" data-aos-duration="800">
+                        <img src="images/ropa_nina.png" class="w-16rem lg:w-10rem" alt="ropa_nina">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <!-- Música de fondo -->
+    <!-- <audio id="background-music" preload="auto" loop>
+        <source src="assets/Thinking_Out_Loud_Violin_and_Piano_Cover_Daniel_Jang.mp3" type="audio/mpeg">
+    </audio> -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- cuenta regresiva -->
+    <script src="js/simplyCountdown.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
